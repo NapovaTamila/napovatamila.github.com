@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/styleCheck.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Перевірка знань</title>
+<style>
+	input:checked {
+        border: 1px solid green;
+      }
+ </style>
+</head>
+<body>
+	<header>
+		<p class="label">Українська мова</p>
+		<h1 class="caption">Тренажер до ЗНО</h1>
+		
+	</header>
+
+<div class="backgr">
+<p class="label">Перевірка знань (Розділ : будова слова)</p>
+
+<script src="js/Check.js"></script>
+
+	
+<div class="osnova">
+	<div class="ques" id="zadan1">
+		<p class="zadan"><b>частина слова, що вносить зміну у значення кореня це</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender1" value="0"><p class="answ"> <i>корінь</i></p><br>
+	  		<input type="radio" name="gender1" value="1"><p class="answ"> <i>афікс</i></p><br>
+	  		<input type="radio" name="gender1" value="0"><p class="answ"> <i>основа</i></p><br>  
+		</form>
+	</div>
+
+	<div class="ques" id="zadan2">
+		<p class="zadan"><b>словотворчі афікси</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender2" value="1"><p class="answ"> <i>утворюють нові слова</i></p><br>
+	  		<input type="radio" name="gender2" value="0"><p class="answ"> <i>виражають відношення слів</i></p><br>
+	  		<input type="radio" name="gender2" value="0"><p class="answ"> <i>надають відтінок слову</i></p><br>  
+		</form>
+	</div>
+
+	<div class="ques" id="zadan3">
+		<p class="zadan"><b>частина слова, що стоїть перед коренем слова це</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender3" value="0"><p class="answ"> <i>закінчення</i></p><br>
+	  		<input type="radio" name="gender3" value="1"><p class="answ"> <i>префікс</i></p><br>
+	  		<input type="radio" name="gender3" value="0"><p class="answ"> <i>постфікс</i></p><br>  
+		</form>
+	</div>
+</div>
+
+<div class="osnova">
+	<div class="ques" id="zadan4">
+		<p class="zadan"><b>Відсутність звукового закінчення прийнято називати</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender4" value="0"><p class="answ"> <i>відсутністю закінчення</i></p><br>
+	  		<input type="radio" name="gender4" value="1"><p class="answ"> <i>нульовим закінченням</i></p><br>
+	  		<input type="radio" name="gender4" value="0"><p class="answ"> <i>безкінцевим</i></p><br>  
+		</form>
+	</div>
+
+	<div class="ques" id="zadan5">
+		<p class="zadan"><b>словозмінні афікси</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender5" value="1"><p class="answ"> <i>виражають відношення слів</i></p><br>
+	  		<input type="radio" name="gender5" value="0"><p class="answ"> <i>надають відтінок слову</i></p><br>
+	  		<input type="radio" name="gender5" value="0"><p class="answ"> <i>утворюють нові слова</i></p><br>  
+		</form>
+	</div>
+	
+	<div class="ques" id="zadan6">
+		<p class="zadan"><b>змінна звукова частина змінюваного слова це</b></p>
+		<form class="otv" action="/action_page.php">
+	  		<input type="radio" name="gender6" value="0"><p class="answ"> <i>корінь</i></p><br>
+	  		<input type="radio" name="gender6" value="0"><p class="answ"> <i>афікс</i></p><br>
+	  		<input type="radio" name="gender6" value="1"><p class="answ"> <i>закінчення</i></p><br>  
+		</form>
+	</div>
+</div>
+
+</div>
+
+	<a href="index.html" title="Головна"><img class="back2" src="style/back/b2.png"></a>
+    <a href="Slovotvir.html" title="крок назад"><img class="back1" src="style/back/b1.png"></a>
+	
+	<img class="checkAll" src="style/check.png" onclick="checkAnswers()">
+
+</body>
+</html>

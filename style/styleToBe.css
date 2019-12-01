@@ -1,0 +1,23 @@
+body { 
+	background-image: url(fon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+h1 { 
+	font-size: 70px;
+	text-align: center;
+	margin-top: 15%;
+}
+
+a { 
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.back2 { 
+	height: 90px;
+}
+
+.back2:hover { background-color: #FFD700; }
+.back2 { transition: background-color 1s linear; } 

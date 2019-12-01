@@ -1,0 +1,198 @@
+body { 
+	background-image: url(fon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%; }
+
+.osnova {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+#first {
+	width: 550px;
+	height: 200px;
+	border: 4px solid blue;
+	border-radius: 15px;
+}
+
+.ukr:hover { background-color: #00BFFF; }
+.lit:hover { background-color: #FFD700; }
+
+h1 { 
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.rule {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.label, .chast { 
+	font-size: 30px;
+	text-align: center; 
+}
+
+#first { transition: background-color 1s linear; }	
+
+.back { 
+	margin-top: 16%;
+	height: 100px;
+}
+
+.close {
+    height: 40px;
+    margin-top: 1px;
+}
+
+.dod {
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#dod2 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    left: 5px;
+
+}
+
+article, section.modal {
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#dod {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 11px;
+}
+
+.afics {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#afics1:hover { background-color: #00BFFF; }
+#afics2:hover { background-color: #FFD700; }
+.know:hover { background-color: #FFD700; }
+img:hover { background-color: #FFD700; }
+.afics, #afics1, #afics2, .know, img { transition: background-color 1s linear; }  
+.know { 
+	text-align: center;
+	font-size: 50px;
+}
+
+section.modal { 
+    top: 174%;
+    width: 96%;
+    border: 5px solid black;
+}
+
+a { 
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+
+
+
+
+
+
+
+
+/* Стили для неактивного модального окна */
+.modal {
+    left: 42%;
+    margin: -250px 0 0 -40%;
+    position: absolute;
+    top: -50%;
+    width: 96%;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+/* Активация модального окна в состоянии :target */
+.modal:target {
+    top: 53%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+.modal header, .modal footer {
+    border-bottom: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.modal footer {
+    margin-bottom: 10px;
+    border:none;
+    border-top: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    height: 60px;
+}
+.foot {
+	margin: 1px;
+	height: 60px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.modal section, .modal header, .modal footer {
+    padding: 15px;
+    z-index: 200;
+}
+.modal h2 { margin: 0; }
+.modal .btn { float: right; }
+.bttn { 
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: -2px;
+    margin-right: -2px;
+    text-align: center;
+}
+.bttn:hover { background-color: #FFD700; }
+.bttn { transition: background-color 1s linear; }
